@@ -75,16 +75,16 @@
             </objects>
             <point key="canvasLocation" x="1025" y="88"/>
         </scene>
-        <!--View Controller-->
+        <!--You Are Loved Table View Controller-->
         <scene sceneID="LvJ-Ye-a2z">
             <objects>
-                <viewController id="eOT-Re-KPz" sceneMemberID="viewController">
+                <viewController id="eOT-Re-KPz" customClass="YouAreLovedTableViewController" customModule="Rare" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hU3-zM-5uf">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Isabel's don't touch" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w7Q-8b-Rj6">
-                                <rect key="frame" x="133" y="256" width="149" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="You are Loved" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w7Q-8b-Rj6">
+                                <rect key="frame" x="153" y="92" width="108" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
