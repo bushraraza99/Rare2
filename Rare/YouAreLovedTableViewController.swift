@@ -9,15 +9,11 @@
 import UIKit
 
 class YouAreLovedTableViewController: UITableViewController {
-
-    @IBOutlet weak var tikTok: UIWebView!;var (_, sender: UIButton) {
-        let URL = NSURL(string: "https://www.tiktok.com/@jazzthornton_/video/6814304604315028742?_d=secCgsIARCbDRgBIAIoARI%2BCjzV405xpbpmfd3MZVqorbzJRSRYyF3N2QcGKZPKfUfmG5VFwxWgcasZPmRExTjsKwJojWkPVDU%2FmXsIpM4aAA%3D%3D&language=en&preview_pb=0&share_item_id=6814304604315028742&timestamp=1595864717&tt_from=copy&u_code=dbh0hd0khlc1aa&user_id=6809762980525048838&utm_campaign=client_share&utm_medium=ios&utm_source=copy&source=h5_m")
-        UIApplication.shared.openURL(URL! as URL)
-    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-
+    
+    }
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
@@ -27,12 +23,12 @@ class YouAreLovedTableViewController: UITableViewController {
 
     // MARK: - Table view data source
 
-    override func numberOfSections(in tableView: UITableView) -> Int {
+func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
         return 0
     }
 
-    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
         return 0
     }
@@ -92,4 +88,4 @@ class YouAreLovedTableViewController: UITableViewController {
     }
     */
 
-}
+
