@@ -103,9 +103,6 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="6wZ-03-b2N"/>
                     </view>
-                    <connections>
-                        <outlet property="tikTok" destination="4Hs-ER-aBj" id="WOr-36-SiW"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AuZ-23-Vll" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
