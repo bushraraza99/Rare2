@@ -17,7 +17,7 @@ class JournalViewController: UIViewController {
     }
     
 
-    @IBAction func journalButton(_ sender: Any){ if let url = URL(string: "https://www.hackingwithswift.com") {     UIApplication.shared.open(url) }
+    @IBAction func journalButton(_ sender: Any){ if let url = URL(string: "https://docs.google.com/document/d/18Zb6-gpDrIPiUPuOCMlZdTzgLbs8txiBw7ySYYWVb-w/edit") {     UIApplication.shared.open(url) }
     }
 
     /*
