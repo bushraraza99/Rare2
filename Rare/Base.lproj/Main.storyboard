@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -101,6 +101,9 @@
                                         </fragment>
                                     </attributedString>
                                 </state>
+                                <connections>
+                                    <segue destination="YyF-Bd-iJ6" kind="show" id="sAv-kY-8rF"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="275276_preview-removebg-preview (1)" translatesAutoresizingMaskIntoConstraints="NO" id="fhv-YO-gFv">
                                 <rect key="frame" x="0.0" y="120" width="414" height="265"/>
@@ -137,15 +140,39 @@
             <objects>
                 <viewController id="YyF-Bd-iJ6" customClass="YouAreLovedViewController" customModule="Rare" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="14I-6r-9Eo">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="d188899" translatesAutoresizingMaskIntoConstraints="NO" id="yc2-eP-iiT">
+                                <rect key="frame" x="71" y="69" width="272" height="306"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Zn7-1I-ytY">
+                                <rect key="frame" x="87" y="418" width="240" height="157"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <string key="text">Jazz Thornton attempted to take her own life 14 times before dedicating herself to saving others. Today she is successful and thriving in life. You can be too 💙</string>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="54q-56-TaA">
+                                <rect key="frame" x="147" y="660" width="121" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="View Jazz's Story"/>
+                                <connections>
+                                    <action selector="button:" destination="YyF-Bd-iJ6" eventType="touchUpInside" id="GW1-t3-Tdh"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="2nK-LS-7MW"/>
                     </view>
+                    <navigationItem key="navigationItem" id="0gA-h7-gUJ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UiT-9w-dmX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1836" y="84"/>
+            <point key="canvasLocation" x="1834.7826086956522" y="83.705357142857139"/>
         </scene>
         <!--Journal View Controller-->
         <scene sceneID="ZcI-01-JjK">
@@ -197,5 +224,6 @@
     </scenes>
     <resources>
         <image name="275276_preview-removebg-preview (1)" width="500" height="500"/>
+        <image name="d188899" width="300" height="300"/>
     </resources>
 </document>
