@@ -15,6 +15,7 @@
 		155D837B24CF6A1100FCCA00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 155D837924CF6A1100FCCA00 /* LaunchScreen.storyboard */; };
 		155D843B24D205FF00FCCA00 /* JournalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155D843A24D205FF00FCCA00 /* JournalViewController.swift */; };
 		DC25AA9924D21FDC006A194E /* ViewControllerHotline.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC25AA9824D21FDC006A194E /* ViewControllerHotline.swift */; };
+		DC25AA9B24D22B9E006A194E /* ViewControlleronlineresources.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC25AA9A24D22B9E006A194E /* ViewControlleronlineresources.swift */; };
 		F7A23B7324D0BCED00B0BCFE /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7A23B7224D0BCED00B0BCFE /* WebKit.framework */; };
 		F7A23B7724D1D51600B0BCFE /* YouAreLovedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A23B7624D1D51600B0BCFE /* YouAreLovedViewController.swift */; };
 /* End PBXBuildFile section */
@@ -30,6 +31,7 @@
 		155D837C24CF6A1100FCCA00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		155D843A24D205FF00FCCA00 /* JournalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalViewController.swift; sourceTree = "<group>"; };
 		DC25AA9824D21FDC006A194E /* ViewControllerHotline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerHotline.swift; sourceTree = "<group>"; };
+		DC25AA9A24D22B9E006A194E /* ViewControlleronlineresources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControlleronlineresources.swift; sourceTree = "<group>"; };
 		F7A23B7224D0BCED00B0BCFE /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		F7A23B7624D1D51600B0BCFE /* YouAreLovedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouAreLovedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -70,6 +72,7 @@
 				155D837024CF6A0800FCCA00 /* SceneDelegate.swift */,
 				155D837224CF6A0800FCCA00 /* ViewController.swift */,
 				155D843A24D205FF00FCCA00 /* JournalViewController.swift */,
+				DC25AA9A24D22B9E006A194E /* ViewControlleronlineresources.swift */,
 				155D837424CF6A0800FCCA00 /* Main.storyboard */,
 				DC25AA9824D21FDC006A194E /* ViewControllerHotline.swift */,
 				F7A23B7624D1D51600B0BCFE /* YouAreLovedViewController.swift */,
@@ -163,6 +166,7 @@
 				F7A23B7724D1D51600B0BCFE /* YouAreLovedViewController.swift in Sources */,
 				155D837324CF6A0800FCCA00 /* ViewController.swift in Sources */,
 				155D836F24CF6A0800FCCA00 /* AppDelegate.swift in Sources */,
+				DC25AA9B24D22B9E006A194E /* ViewControlleronlineresources.swift in Sources */,
 				155D837124CF6A0800FCCA00 /* SceneDelegate.swift in Sources */,
 				155D843B24D205FF00FCCA00 /* JournalViewController.swift in Sources */,
 			);

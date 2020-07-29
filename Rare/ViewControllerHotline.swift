@@ -16,7 +16,36 @@ class ViewControllerHotline: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func nih(_ sender: Any) {
+        let url = URL (string: "https://www.nimh.nih.gov/health/find-help/index.shtml")!
+        UIApplication.shared.open (url)
+    }
+    
+    @IBAction func cdc(_ sender: Any) {
+        let url = URL (string: "https://www.cdc.gov/mentalhealth/tools-resources/individuals/index.htm")!
+        UIApplication.shared.open (url)
+    }
+    
+    @IBAction func talk(_ sender: Any) {
+        let url = URL (string: "https://ok2talk.org")!
+        UIApplication.shared.open (url)
+    }
+    
+    @IBAction func health(_ sender: Any) {
+        let url = URL (string: "https://www.mentalhealth.")!
+        UIApplication.shared.open (url)
+    }
+    
+    @IBAction func mental(_ sender: Any) {
+        let url = URL (string: "https://socialworklicensemap.com/social-work-resources/mental-health-resources-list/")!
+               UIApplication.shared.open (url)
+    }
+    
+    @IBAction func better(_ sender: Any) {
+        let url = URL (string: "https://www.betterhelp.com")!
+                      UIApplication.shared.open (url)
+    }
+    
     /*
     // MARK: - Navigation
 
