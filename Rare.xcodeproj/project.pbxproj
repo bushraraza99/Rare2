@@ -14,6 +14,8 @@
 		155D837824CF6A1100FCCA00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 155D837724CF6A1100FCCA00 /* Assets.xcassets */; };
 		155D837B24CF6A1100FCCA00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 155D837924CF6A1100FCCA00 /* LaunchScreen.storyboard */; };
 		F7A23B7024D0A98800B0BCFE /* YouAreLovedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A23B6F24D0A98800B0BCFE /* YouAreLovedTableViewController.swift */; };
+		F7A23B7324D0BCED00B0BCFE /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7A23B7224D0BCED00B0BCFE /* WebKit.framework */; };
+		F7A23B7524D0BDF600B0BCFE /* testingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A23B7424D0BDF600B0BCFE /* testingTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		155D837A24CF6A1100FCCA00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		155D837C24CF6A1100FCCA00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F7A23B6F24D0A98800B0BCFE /* YouAreLovedTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouAreLovedTableViewController.swift; sourceTree = "<group>"; };
+		F7A23B7224D0BCED00B0BCFE /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		F7A23B7424D0BDF600B0BCFE /* testingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testingTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7A23B7324D0BCED00B0BCFE /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +49,7 @@
 			children = (
 				155D836D24CF6A0800FCCA00 /* Rare */,
 				155D836C24CF6A0800FCCA00 /* Products */,
+				F7A23B7124D0BCEC00B0BCFE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,12 +68,21 @@
 				155D837024CF6A0800FCCA00 /* SceneDelegate.swift */,
 				155D837224CF6A0800FCCA00 /* ViewController.swift */,
 				155D837424CF6A0800FCCA00 /* Main.storyboard */,
+				F7A23B7424D0BDF600B0BCFE /* testingTableViewController.swift */,
 				F7A23B6F24D0A98800B0BCFE /* YouAreLovedTableViewController.swift */,
 				155D837724CF6A1100FCCA00 /* Assets.xcassets */,
 				155D837924CF6A1100FCCA00 /* LaunchScreen.storyboard */,
 				155D837C24CF6A1100FCCA00 /* Info.plist */,
 			);
 			path = Rare;
+			sourceTree = "<group>";
+		};
+		F7A23B7124D0BCEC00B0BCFE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7A23B7224D0BCED00B0BCFE /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				155D837324CF6A0800FCCA00 /* ViewController.swift in Sources */,
+				F7A23B7524D0BDF600B0BCFE /* testingTableViewController.swift in Sources */,
 				F7A23B7024D0A98800B0BCFE /* YouAreLovedTableViewController.swift in Sources */,
 				155D836F24CF6A0800FCCA00 /* AppDelegate.swift in Sources */,
 				155D837124CF6A0800FCCA00 /* SceneDelegate.swift in Sources */,
