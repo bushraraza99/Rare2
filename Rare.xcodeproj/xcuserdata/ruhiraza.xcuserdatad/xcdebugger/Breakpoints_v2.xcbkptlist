@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "F251519D-D2DD-4F43-897B-6B16FA6AAC00"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9A95C5B8-8A21-4F7D-A9F8-A3623BEEA642"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Rare/YouAreLovedViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "YouAreLovedViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "9A95C5B8-8A21-4F7D-A9F8-A3623BEEA642 - 4d6fbc3c389fed84"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Rare.YouAreLovedViewController.__deallocating_deinit"
+                  moduleName = "Rare"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ruhiraza/Documents/Rare/Rare/YouAreLovedViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "9A95C5B8-8A21-4F7D-A9F8-A3623BEEA642 - 15f188ad546b0b9b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Rare.YouAreLovedViewController.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Rare.YouAreLovedViewController"
+                  moduleName = "Rare"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ruhiraza/Documents/Rare/Rare/YouAreLovedViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "9A95C5B8-8A21-4F7D-A9F8-A3623BEEA642 - fcb462d1c717e14a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Rare.YouAreLovedViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Rare.YouAreLovedViewController"
+                  moduleName = "Rare"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ruhiraza/Documents/Rare/Rare/YouAreLovedViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "389">
+               </Location>
+               <Location
+                  uuid = "9A95C5B8-8A21-4F7D-A9F8-A3623BEEA642 - 3eda642ddc530f42"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Rare.YouAreLovedViewController.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Rare.YouAreLovedViewController&gt;"
+                  moduleName = "Rare"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ruhiraza/Documents/Rare/Rare/YouAreLovedViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "9A95C5B8-8A21-4F7D-A9F8-A3623BEEA642 - 2440d75909585c41"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Rare.YouAreLovedViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Rare.YouAreLovedViewController&gt;"
+                  moduleName = "Rare"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ruhiraza/Documents/Rare/Rare/YouAreLovedViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "239">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
