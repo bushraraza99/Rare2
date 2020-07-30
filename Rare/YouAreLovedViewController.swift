@@ -19,6 +19,7 @@ class YouAreLovedViewController: UIViewController {
     
     
     
+    
     @IBAction func stories(_ sender: Any) {
         if let url = URL(string: "https://www.beyondblue.org.au/who-does-it-affect/personal-stories") {     UIApplication.shared.open(url) }
     }
