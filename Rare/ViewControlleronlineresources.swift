@@ -17,6 +17,10 @@ class ViewControlleronlineresources: UIViewController {
     }
     
 
+    @IBAction func callNum(_ sender: Any) {
+        guard let number = URL(string: "tel://" + "18002738255") else { return }
+        UIApplication.shared.open(number)
+    }
     /*
     // MARK: - Navigation
 
