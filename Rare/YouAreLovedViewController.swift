@@ -17,6 +17,13 @@ class YouAreLovedViewController: UIViewController {
     @IBAction func alicia(_ sender: Any) { if let url = URL(string: "https://www.mentalhealth.org.uk/stories/alicia-story-how-i-reframed-my-perspective-after-my-mental-health-diagnosis") {     UIApplication.shared.open(url) }
     }
     
+    
+    
+    @IBAction func stories(_ sender: Any) {
+        if let url = URL(string: "https://www.beyondblue.org.au/who-does-it-affect/personal-stories") {     UIApplication.shared.open(url) }
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
