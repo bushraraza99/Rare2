@@ -32,7 +32,7 @@ class ViewControllerHotline: UIViewController {
     }
     
     @IBAction func health(_ sender: Any) {
-        let url = URL (string: "https://www.mentalhealth.")!
+        let url = URL (string: "https://www.mentalhealth.gov")!
         UIApplication.shared.open (url)
     }
     

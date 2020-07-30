@@ -8,16 +8,16 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "9A95C5B8-8A21-4F7D-A9F8-A3623BEEA642"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Rare/YouAreLovedViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "11"
-            endingLineNumber = "11"
-            landmarkName = "YouAreLovedViewController"
-            landmarkType = "3">
+            startingLineNumber = "10"
+            endingLineNumber = "10"
+            landmarkName = "unknown"
+            landmarkType = "0">
             <Locations>
                <Location
                   uuid = "9A95C5B8-8A21-4F7D-A9F8-A3623BEEA642 - 4d6fbc3c389fed84"
